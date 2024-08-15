@@ -5,7 +5,7 @@ To use, create a new repository within the Orbis-Cascade-Alliance organization a
 
 ## Adding Pages to the Site
 
-Add and edit pages within the /pages directory.
+Add and edit pages within the /_pages directory.
 
 Set the titles, permalinks, and order in the frontmatter. (Between the lines of three dashes at the top.)
 
@@ -19,4 +19,4 @@ All pages are written in Markdown. See [Basic Syntax](https://www.markdownguide.
 
 If editing the website on Github.com, preview page contents using the button at the top of the editing window. The website will update soon after changes are committed to the source branch.
 
-To run the website on another machine for development, see the (Jekyll Installation)[https://jekyllrb.com/docs/installation/] documentation and (Testing your GitHub Pages site locally with Jekyll)[https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll]. Clone the appropriate repository rather than creating a new site.
+To run the website on another machine for development, see the [Jekyll Installation](https://jekyllrb.com/docs/installation/) documentation and [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll). Clone the appropriate repository rather than creating a new site.
