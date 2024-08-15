@@ -9,7 +9,7 @@ This is the homepage of the course.
 
 ## Adding Pages
 
-Add and edit pages within the /pages directory. [Example](page)
+Add and edit pages within the /pages directory. [Example]({{ "page" | absolute_url}})
 
 Set the titles, permalinks, and order in the frontmatter. (Between the lines of three dashes at the top.)
 
