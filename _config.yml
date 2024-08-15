@@ -22,8 +22,8 @@ title: Course Title
 email: tech@orbiscascade.org
 description: >- # this means to ignore newlines until "baseurl:"
   Course description, in _config.yml
-baseurl: "/courses" # GitHub repository path, e.g., /systems-librarianship
-url: "https://github.orbiscascade.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # Repository subfolder
+url: "https://github.orbiscascade.org/courses" # The GitHub domain and repository, e.g., https://github.orbiscascade.org/systems-librarianship
 logo: "/assets/img/orbis_cascade_logo.png"
 
 # Build settings

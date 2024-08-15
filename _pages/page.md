@@ -9,4 +9,4 @@ order: 1
 
 This is a basic page template. Set the title, permalink, and order in the frontmatter, above.
 
-[Next page]({{ site.baseurl }}/page2)
+[Next page](page2)
