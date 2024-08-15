@@ -29,7 +29,7 @@
 			  {% assign sorted_pages = site.pages | sort: "order" %}
 			  {% for page in sorted_pages %}
 			    {% if page.path contains "_pages/" %}
-				<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+				<li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
 				{% endif %}
 			  {% endfor %}  <!-- page -->
 			</ul>
