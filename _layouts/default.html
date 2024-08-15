@@ -14,6 +14,9 @@
   </head>
   <body>
     <div class="wrapper">
+	  <div id="skip-nav">
+		<a href="#main">Skip to main content</a>
+	  </div>
 	  <div id="side">
 		  <header>
 			{% if site.logo %}
@@ -24,24 +27,29 @@
 			<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 			<p>{{ site.description | default: site.github.project_tagline }}</p>
 		  </header>
-		  <div id="menu">
+		  <nav>
 			<ul>
 			  {% assign sorted_pages = site.pages | sort: "order" %}
 			  {% for page in sorted_pages %}
 			    {% if page.path contains "_pages/" %}
 				<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 				{% endif %}
-			  {% endfor %}  <!-- page -->
+			  {% endfor %}
 			</ul>
-		  </div>
+		  </nav>
 		  <footer>
-			{% if site.github.is_project_page %}
-			<p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-			{% endif %}
-			<p><small>Hosted on GitHub Pages<br />Minimal theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+			 <div id="cc-license" xmlns:cc="http://creativecommons.org/ns#" >
+				This project by the <a href="https://orbiscascade.org" property="cc:attributionName">Orbis Cascade Alliance</a> is licensed under
+				<div>
+					<a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1">CC BY 4.0</a>
+					<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="Creative Commons" />
+					<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="Attribution" />
+				</div>
+			 </div> 
+			<p id="attribution">Hosted on GitHub Pages<br />Minimal theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
 		  </footer>
 	  </div>
-      <section>
+      <section id="main">
       {{ content }}
       </section>
 	</div>
