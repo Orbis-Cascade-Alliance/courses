@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Course description, in _config.yml
 baseurl: "/courses" # GitHub repository path, e.g., /systems-librarianship
 url: "https://github.orbiscascade.org" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/courses/assets/img/orbis_cascade_logo.png"
+logo: "/assets/img/orbis_cascade_logo.png"
 
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0
