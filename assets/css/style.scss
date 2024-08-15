@@ -1,0 +1,63 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  color: #333;
+  font-size: 1rem;
+}
+
+a:hover, a:focus, a:active {
+  font-weight: inherit;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 130%;
+}
+
+small {
+  font-size: 90%;
+}
+
+.wrapper {
+  width: 1160px;
+}
+
+#side {
+  position: fixed;
+  width: 260px;
+}
+
+a#logo {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+header {
+  float: none;
+  width: 100%;
+  position: relative;
+}
+
+section {
+  float: none;
+  margin-left: 290px;
+  width: auto;
+}
+
+footer {
+  float: none;
+  width: 100%;
+  position: relative;
+  bottom: auto;
+}
