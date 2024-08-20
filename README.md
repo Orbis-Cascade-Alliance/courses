@@ -1,7 +1,7 @@
 # Courses Template
 This repository can be used to generate simple Alliance-branded websites with Jekyll. It uses the Github Pages-compatible [Minimal theme](https://github.com/pages-themes/minimal/) with customizations.
 
-To use, create a new repository within the Orbis-Cascade-Alliance organization and select this one as the template. (Outside of the Alliance, fork and clone the repository.) Create a branch to use as the source for the website, suches "gh-pages," or use the default "main." Set the selected branch as the source under Settings > Pages. GitHub will automatically generate the website from the source code.
+To use, create a new repository within the Orbis-Cascade-Alliance organization and select this one as the template. (Outside of the Alliance, fork and clone the repository.) Create a branch to use as the source for the website, such as "gh-pages," or use the default "main." Set the selected branch as the source under Settings > Pages. GitHub will automatically generate the website from the source code.
 
 ## Site Setup
 
