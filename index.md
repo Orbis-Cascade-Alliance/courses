@@ -9,7 +9,7 @@ This is the homepage of the course.
 
 ## Adding Pages
 
-Add and edit pages within the /_pages directory. [Example]({{ "page" | absolute_url}})
+Add and edit pages within the /_pages directory. [Example]({{ "/page" | absolute_url}})
 
 Set the titles, permalinks, and order in the frontmatter. (Between the lines of three dashes at the top.)
 
@@ -21,9 +21,11 @@ All pages are written in Markdown. See [Basic Syntax](https://www.markdownguide.
 
 ## Multimedia
 
-To add images to a page, add them to the /assets/img folder. Use the complete path in the image source, including the repository. Example:
+To add images to a page, add them to the /assets/img folder. Either use the complete path in the image source, including the repository, or use a path relative to the root of this project with the Jekyll filter ``absolute_url``. Examples:
 
     ![Artistic rendering of computers](/systems-librarianship/assets/img/binary-monitor-particles-600px.jpg)
+    
+    {% raw %}![Artistic rendering of computers]({{ "/assets/img/binary-monitor-particles-600px.jpg" | absolute_url }}){% endraw %}
 
 To embed YouTube videos, use the iframe embed code. Example:
 
